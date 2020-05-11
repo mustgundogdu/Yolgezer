@@ -68,13 +68,19 @@ it can also perform some dns and whois queries.(Uses dig and whois tools.)
               
 First of all, mysql server must be installed on your system and configuring mysql.
 
-$sudo apt update
-$sudo apt install mysql-server
-$sudo mysql_secure_installation
+*$sudo apt update
+*$sudo apt install mysql-server
+*$sudo mysql_secure_installation
 
 then we load the other requirement python mysql module.
-$pip install mysql-connector-python
+*$pip install mysql-connector-python
 
+Then we perform the download and run the configuration shell file.
+
+*git clone https://github.com/mustgundogdu/Yolgezer.git
+
+*cd Yolgezer/conf/
+*./conf_command.sh
 
 
 
